@@ -2,6 +2,8 @@ package pokerBase;
 
 import static org.junit.Assert.*;
 
+import java.util.Collections;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -81,7 +83,7 @@ public class Hand_Test {
 		h.AddToCardsInHand(new Card(eSuit.CLUBS, eRank.TEN,1));
 		h.AddToCardsInHand(new Card(eSuit.CLUBS, eRank.TEN,1));
 		h.AddToCardsInHand(new Card(eSuit.CLUBS, eRank.ACE,1));
-		
+	
 		try {
 			h = Hand.EvaluateHand(h);
 		} catch (Exception e) {

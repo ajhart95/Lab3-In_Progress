@@ -47,7 +47,7 @@ public class Card  implements Comparable {
 	public boolean isbWild() {
 		return bWild;
 	}
-	public void setbWild(boolean bWild) {
+	void setbWild(boolean bWild) {
 		this.bWild = bWild;
 	}
 
